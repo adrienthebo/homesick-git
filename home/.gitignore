@@ -1,0 +1,12 @@
+*.swp
+*.o
+tags
+.rvmrc
+pkg/*
+.yardoc
+.DS_Store
+.bundle
+_vendor
+.vagrant
+.ctags
+.pe_build
