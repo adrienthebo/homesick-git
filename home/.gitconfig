@@ -4,6 +4,7 @@
 	signingkey = 6F1C4519
 [core]
 	excludesfile = ~/.gitignore
+	editor = vim
 [color]
 	branch = auto
 	diff = auto
