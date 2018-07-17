@@ -10,3 +10,10 @@ _vendor
 .vagrant
 .ctags
 .pe_build
+__pycache__
+*.pyc
+*.pyo
+/target
+.eggs
+.pytest_cache
+*.egg-info
