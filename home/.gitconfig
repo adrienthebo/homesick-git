@@ -29,6 +29,7 @@
 	rebase-master = !git rebase -i $(git merge-base master HEAD)
 	where = rev-parse --abbrev-ref HEAD
 	smash = reset --hard
+	checkout-pull = "!fn() { git fetch origin \"refs/pull/$1/head\" && git checkout -b \"pull-$1\" && git reset --hard FETCH_HEAD ; } ; fn "
 [github]
 	user = adrienthebo
 [gist]
