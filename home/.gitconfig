@@ -44,3 +44,5 @@
 	user = adrienthebo
 [gist]
 	browse = yes
+[http]
+	cookiefile = ~/.gitcookies
