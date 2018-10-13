@@ -49,3 +49,6 @@
 	browse = yes
 [http]
 	cookiefile = ~/.gitcookies
+# use separate file for username / github token / etc
+[include]
+  path = ~/.gitconfig.local
