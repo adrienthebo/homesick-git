@@ -22,7 +22,6 @@
 	remote = green
 [color "status"]
 	added = yellow
-	changed = green
 	untracked = cyan
 [diff]
 	mnemonicprefix = true
