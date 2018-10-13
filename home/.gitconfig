@@ -6,7 +6,6 @@
 	editor = vim
 [color]
 	interactive = auto
-	status = auto
 	ui = auto
 [color "diff"]
 	meta = yellow bold
@@ -21,6 +20,10 @@
 	current = yellow reverse
 	local = yellow
 	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
 [diff]
 	mnemonicprefix = true
 [merge]
