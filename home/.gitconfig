@@ -53,3 +53,9 @@
 	path = ~/.gitconfig.local
 [fetch]
 	prune = true
+[url "https://github.com"]
+	insteadOf = git://github.com
+[url "https://github.com/"]
+	insteadOf = gh:
+[url "git@github.com:"]
+	insteadOf = ghs:
