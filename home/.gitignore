@@ -20,4 +20,6 @@ __pycache__
 .pytest_cache
 *.egg-info
 .terraform
+terraform.tfstate
+terraform.tfstate.*
 .envrc
