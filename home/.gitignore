@@ -35,6 +35,7 @@ terraform.tfstate.*
 *-cache.lib
 *.bak
 fp-info-cache
+_saved_*.sch
 
 # GCP
 credentials.json
