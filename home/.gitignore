@@ -23,4 +23,11 @@ __pycache__
 terraform.tfstate
 terraform.tfstate.*
 .envrc
+
+# Kicad
+*-cache.lib
+*.bak
+fp-info-cache
+
 credentials.json
+
