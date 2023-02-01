@@ -63,8 +63,9 @@
 	branch = false
 
 [core]
-  #pager = delta --dark --plus-color="#012800" --minus-color="#340001" --theme="base16-ocean.dark"
-  pager = delta --dark --plus-color="#012800" --minus-color="#340001" --theme="zenburn"
+  pager = delta --dark --syntax-theme="zenburn"
 
 [interactive]
   diffFilter = delta --dark --color-only
+[init]
+	defaultBranch = main
